@@ -11,10 +11,7 @@ body {
 }
 
 .hero-image {
-  background-image: url(/images/header-background.png);
-  background-size: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background: linear-gradient(45deg, #05365c, #77056c);
   padding: 80px 0px;
   max-width: 100%;
   height: auto;
