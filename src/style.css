@@ -125,6 +125,13 @@ footer {
   }
 
   .social-media-links {
+    max-width: 600px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .social-media-links {
     max-width: 300px;
     padding: 20px;
   }
