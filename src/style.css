@@ -12,7 +12,7 @@ body {
 
 .hero-image {
   background: linear-gradient(45deg, #05365c, #77056c);
-  padding: 80px 0px;
+  padding: 60px 0px 80px;
   max-width: 100%;
   height: auto;
 }
@@ -118,5 +118,14 @@ footer {
 
   h3 {
     font-size: 16px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+
+  .social-media-links {
+    max-width: 300px;
+    padding: 20px;
   }
 }
