@@ -10,18 +10,6 @@ body {
   height: 100vh;
 }
 
-.hero-image {
-  background: linear-gradient(45deg, #05365c, #77056c);
-  padding: 80px 0px;
-  max-width: 100%;
-  height: auto;
-}
-
-.hero-text {
-  text-align: center;
-  color: white;
-}
-
 p {
   font-family: var(--secondary-font);
   font-size: 24px;
@@ -53,6 +41,23 @@ footer {
   margin: 30px;
   color: #3e2762;
   padding: 20px;
+}
+
+.logo {
+  max-width: 60px;
+  margin-left: 10px;
+}
+
+.hero-image {
+  background: linear-gradient(45deg, #05365c, #77056c);
+  padding: 175px 0px 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
 }
 
 .about-button,
