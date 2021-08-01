@@ -3,3 +3,70 @@
   --secondary-font: "Quicksand", sans-serif;
   --signature-font: "WindSong", cursive;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.hero-image {
+  background-image: url(/images/header-background.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 80px 0px;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: var(--main-font);
+  text-shadow: 1px 1px 2px white;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+}
+
+.about-button,
+.portfolio-button {
+  padding: 20px 30px;
+  font-size: 20px;
+  margin-top: 50px;
+  border-radius: 15px;
+  font-family: var(--secondary-font);
+  background-color: white;
+  width: 196px;
+}
+
+.about-button {
+  color: #77056c;
+}
+
+.about-button:hover {
+  background-color: #77056c;
+  color: white;
+}
+
+.portfolio-button {
+  color: #05365c;
+}
+
+.portfolio-button:hover {
+  background-color: #05365c;
+  color: white;
+}
