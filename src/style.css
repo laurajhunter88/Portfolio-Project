@@ -1,7 +1,7 @@
 :root {
   --main-font: "Montserrat", sans-serif;
   --secondary-font: "Quicksand", sans-serif;
-  --signature-font: "WindSong", cursive;
+  --signature-font: "Dancing Script", cursive;
 }
 
 body {
@@ -23,12 +23,13 @@ h1 {
 }
 
 h2 {
-  font-family: var(--secondary-font);
+  font-family: var(--signature-font);
   font-size: 36px;
+  line-height: 80px;
 }
 
 h3 {
-  font-family: var(--secondary-font);
+  font-family: var(--main-font);
   font-size: 36px;
   text-align: center;
   color: #05365c;
@@ -53,6 +54,10 @@ footer {
   padding: 175px 0px 100px;
   max-width: 100%;
   height: auto;
+}
+
+.hero-image.about-page {
+  padding-top: 90px;
 }
 
 .hero-text {
@@ -90,12 +95,31 @@ footer {
   color: white;
 }
 
+.art-button {
+  color: white;
+  background-color: #3e2762;
+  border: 2px solid #e9e3f2;
+  box-shadow: 5px 5px 5px #3e2762;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 22px;
+  font-family: var(--signature-font);
+}
+
+.art-button:hover {
+  background-color: white;
+  color: #3e2762;
+  border: 2px solid #3e2762;
+}
+
 .social-media-links {
   text-align: center;
   border: 2px solid #05365c;
   display: block;
   margin: 0 auto;
   margin-top: 60px;
+
   max-width: 900px;
   padding: 40px;
 }
@@ -107,6 +131,65 @@ footer {
 
 .fab:hover {
   color: #05365c;
+}
+
+.content-text {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.content-text p {
+  color: #77056c;
+}
+
+.profile-pic {
+  max-width: 325px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 100px;
+}
+
+.about-title {
+  margin-top: 220px;
+  margin-left: -30px;
+}
+
+.content-text h3 {
+  margin: 50px 0 30px 0;
+}
+
+.shecodes-link {
+  color: #3e2762;
+  text-decoration: none;
+}
+
+.shecodes-link:hover {
+  color: #05365c;
+  text-decoration: underline;
+}
+.qualifications-text {
+  background-color: #e9e3f2;
+  padding: 10px 0 30px;
+  max-width: 100%;
+  height: auto;
+  margin: 40px 0;
+  border-radius: 5px;
+}
+
+.qualifications-text p {
+  padding: 70px;
+}
+
+.certificates {
+  max-width: 325px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.interests-text {
+  margin-bottom: 50px;
 }
 
 @media (max-width: 900px) {
@@ -130,6 +213,10 @@ footer {
     font-size: 18px;
   }
 
+  p {
+    font-size: 16px;
+  }
+
   footer {
     font-size: 12px;
   }
@@ -138,11 +225,44 @@ footer {
     max-width: 600px;
     padding: 20px;
   }
+
+  .profile-pic {
+    max-width: 250px;
+  }
+
+  .certificates {
+    max-width: 250px;
+  }
+
+  .qualifications-text p {
+    padding: 0;
+  }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
+  .about-title {
+    margin-top: 150px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 580px) {
   .social-media-links {
     max-width: 300px;
     padding: 20px;
+  }
+
+  .about-title {
+    margin-top: 70px;
+    margin-left: 0;
+  }
+
+  .profile-pic {
+    margin-top: 40px;
+    max-width: 200px;
+  }
+
+  .hero-image.about-page {
+    padding-bottom: 60px;
   }
 }
