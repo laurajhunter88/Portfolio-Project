@@ -44,6 +44,8 @@ footer {
   padding: 20px;
 }
 
+/*Hero Section*/
+
 .logo {
   max-width: 60px;
   margin-left: 10px;
@@ -64,6 +66,8 @@ footer {
   text-align: center;
   color: white;
 }
+
+/*Buttons*/
 
 .about-button,
 .portfolio-button {
@@ -113,6 +117,8 @@ footer {
   border: 2px solid #3e2762;
 }
 
+/*Social Links*/
+
 .social-media-links {
   text-align: center;
   border: 2px solid #05365c;
@@ -133,6 +139,8 @@ footer {
   color: #05365c;
 }
 
+/*General Content*/
+
 .content-text {
   text-align: center;
   margin: 50px 0px;
@@ -142,13 +150,7 @@ footer {
   color: #77056c;
 }
 
-.profile-pic {
-  max-width: 325px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 100px;
-  border-radius: 100px;
-}
+/*About Page Content*/
 
 .about-title {
   margin-top: 220px;
@@ -159,15 +161,6 @@ footer {
   margin: 50px 0 30px 0;
 }
 
-.shecodes-link {
-  color: #3e2762;
-  text-decoration: none;
-}
-
-.shecodes-link:hover {
-  color: #05365c;
-  text-decoration: underline;
-}
 .qualifications-text {
   background-color: #e9e3f2;
   padding: 10px 0 30px;
@@ -181,6 +174,12 @@ footer {
   padding: 80px;
 }
 
+.interests-text {
+  margin-bottom: 50px;
+}
+
+/*About Page Pictures*/
+
 .certificates {
   max-width: 325px;
   display: block;
@@ -188,9 +187,27 @@ footer {
   margin-top: 20px;
 }
 
-.interests-text {
-  margin-bottom: 50px;
+.profile-pic {
+  max-width: 325px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 100px;
 }
+
+/*Links*/
+
+.shecodes-link {
+  color: #3e2762;
+  text-decoration: none;
+}
+
+.shecodes-link:hover {
+  color: #05365c;
+  text-decoration: underline;
+}
+
+/*Responsive*/
 
 @media (max-width: 900px) {
   .about-button,
