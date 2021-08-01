@@ -47,7 +47,8 @@ h2 {
   border-radius: 15px;
   font-family: var(--secondary-font);
   background-color: white;
-  width: 196px;
+  width: 220px;
+  font-weight: 700;
 }
 
 .about-button {
