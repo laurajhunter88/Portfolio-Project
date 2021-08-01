@@ -41,7 +41,7 @@ h2 {
 
 h3 {
   font-family: var(--secondary-font);
-  font-size: 32px;
+  font-size: 36px;
   text-align: center;
   color: #05365c;
 }
@@ -99,6 +99,11 @@ footer {
   color: #77056c;
   margin: 10px;
 }
+
+.fab:hover {
+  color: #05365c;
+}
+
 @media (max-width: 900px) {
   .about-button,
   .portfolio-button {
@@ -117,7 +122,7 @@ footer {
   }
 
   h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   footer {
