@@ -39,6 +39,22 @@ h2 {
   font-size: 36px;
 }
 
+h3 {
+  font-family: var(--secondary-font);
+  font-size: 32px;
+  text-align: center;
+  color: #05365c;
+}
+
+footer {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  text-align: center;
+  margin: 30px;
+  color: #3e2762;
+  padding: 20px;
+}
+
 .about-button,
 .portfolio-button {
   padding: 20px 30px;
@@ -67,4 +83,40 @@ h2 {
 .portfolio-button:hover {
   background-color: #05365c;
   color: white;
+}
+
+.social-media-links {
+  text-align: center;
+  border: 2px solid #05365c;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 900px;
+  padding: 40px;
+}
+
+.fab {
+  color: #77056c;
+  margin: 10px;
+}
+@media (max-width: 900px) {
+  .about-button,
+  .portfolio-button {
+    font-size: 12px;
+    width: 150px;
+    padding: 10px 5px;
+  }
+
+  h1 {
+    font-size: 64px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
 }
