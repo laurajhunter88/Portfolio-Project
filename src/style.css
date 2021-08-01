@@ -24,7 +24,7 @@ h1 {
 
 h2 {
   font-family: var(--signature-font);
-  font-size: 36px;
+  font-size: 40px;
   line-height: 80px;
 }
 
@@ -33,6 +33,12 @@ h3 {
   font-size: 36px;
   text-align: center;
   color: #05365c;
+}
+
+h4 {
+  font-family: var(--signature-font);
+  color: #3e2762;
+  font-size: 28px;
 }
 
 footer {
@@ -170,12 +176,17 @@ footer {
   border-radius: 5px;
 }
 
-.qualifications-text p {
-  padding: 80px;
+.skills-text {
+  padding: 140px 30px;
+  text-align: center;
 }
 
 .interests-text {
   margin-bottom: 50px;
+}
+
+.icon-title {
+  padding: 70px 0 30px;
 }
 
 /*About Page Pictures*/
@@ -195,6 +206,14 @@ footer {
   border-radius: 100px;
 }
 
+.icon {
+  max-width: 35px;
+  text-align: center !important;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0 0;
+}
+
 /*Links*/
 
 .shecodes-link {
@@ -205,6 +224,20 @@ footer {
 .shecodes-link:hover {
   color: #05365c;
   text-decoration: underline;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.primary-link:hover {
+  color: white;
 }
 
 /*Responsive*/
@@ -261,6 +294,10 @@ footer {
     margin-top: 150px;
     margin-left: 0;
   }
+
+  .icon-title {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 580px) {
@@ -281,5 +318,11 @@ footer {
 
   .hero-image.about-page {
     padding-bottom: 60px;
+  }
+
+  .project-link {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
   }
 }
