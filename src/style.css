@@ -322,6 +322,17 @@ footer {
   background-color: white;
 }
 
+.portfolio-code-link {
+  color: var(--tertiary-color);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.portfolio-code-link:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
 /*Responsive*/
 
 @media (max-width: 1024px) {
