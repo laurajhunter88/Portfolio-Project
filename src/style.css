@@ -16,6 +16,7 @@ body {
 p {
   font-family: var(--secondary-font);
   font-size: 24px;
+  text-align: center;
 }
 
 h1 {
@@ -262,17 +263,22 @@ footer {
   margin: 0 auto;
 }
 
+/*Contact Page Content*/
+
+.contact-title {
+  margin: 40px 0;
+}
 /*Links*/
 
 .shecodes-link {
   color: var(--tertiary-color);
   text-decoration: none;
+  transition: all 200ms ease-in-out;
 }
 
 .shecodes-link:hover {
   color: var(--primary-color);
   text-decoration: underline;
-  transition: all 200ms ease-in-out;
 }
 
 .primary-link {
@@ -287,12 +293,33 @@ footer {
   margin: 0 auto;
   margin-bottom: 20px;
   max-width: 300px;
+  transition: all 200ms ease-in-out;
 }
 
 .primary-link:hover {
   color: var(--tertiary-color);
   background-color: white;
+}
+
+.contact-link {
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 10px;
+  background: var(--tertiary-color);
+  box-shadow: 5px 5px 5px var(--secondary-color);
+  color: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  margin-top: 40px;
+
+  max-width: 300px;
   transition: all 200ms ease-in-out;
+}
+
+.contact-link:hover {
+  color: var(--tertiary-color);
+  background-color: white;
 }
 
 /*Responsive*/
@@ -417,7 +444,7 @@ footer {
   }
 
   .portfolio-title {
-    margin: 20px 0;
+    margin: 30px 0 20px;
   }
 
   .hero-image {
@@ -427,6 +454,11 @@ footer {
   .hero-text {
     font-size: 36px;
     margin-top: 70px;
+  }
+
+  .hero-text h1,
+  h1 {
+    margin-bottom: 0;
   }
 
   .content-title {
