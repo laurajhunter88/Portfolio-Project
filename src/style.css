@@ -414,7 +414,12 @@ footer {
   }
 
   .icon-title {
-    margin-top: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+
+  .skills-text {
+    margin-bottom: 0;
   }
 }
 
@@ -440,7 +445,7 @@ footer {
 
   .project-link {
     display: block;
-    margin: 0 20px;
+    margin: 0 auto;
     text-align: center;
   }
 
@@ -479,5 +484,9 @@ footer {
   .content-title {
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .skills-text {
+    padding: 30px;
   }
 }
