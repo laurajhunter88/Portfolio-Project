@@ -7,10 +7,39 @@
   --tertiary-color: #3e2762;
 }
 
+/*All Pages*/
+
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4.5em;
+  font-family: var(--main-font);
+  text-shadow: 1px 1px 2px white;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-family: var(--signature-font);
+  font-size: 2.5em;
+  line-height: 80px;
+}
+
+h3 {
+  font-family: var(--main-font);
+  font-size: 2.25em;
+
+  color: var(--primary-color);
+}
+
+h4 {
+  font-family: var(--signature-font);
+  color: var(--tertiary-color);
+  font-size: 1.75em;
 }
 
 a {
@@ -19,42 +48,13 @@ a {
 
 p {
   font-family: var(--secondary-font);
-  font-size: 24px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 72px;
-  font-family: var(--main-font);
-  text-shadow: 1px 1px 2px white;
-  margin-bottom: 15px;
-}
-
-h2 {
-  font-family: var(--signature-font);
-  font-size: 40px;
-  line-height: 80px;
-  text-align: center;
-}
-
-h3 {
-  font-family: var(--main-font);
-  font-size: 36px;
-  text-align: center;
-  color: var(--primary-color);
-}
-
-h4 {
-  font-family: var(--signature-font);
-  color: var(--tertiary-color);
-  font-size: 28px;
-  text-align: center;
+  font-size: 1.5em;
 }
 
 footer {
   font-family: var(--secondary-font);
-  font-size: 16px;
-  text-align: center;
+  font-size: 1em;
+
   margin: 30px;
   color: var(--tertiary-color);
   padding: 20px;
@@ -85,6 +85,10 @@ footer {
 .hero-text {
   text-align: center;
   color: white;
+}
+
+.nav-item {
+  font-family: var(--main-font);
 }
 
 /*Buttons*/
@@ -121,7 +125,7 @@ footer {
   transition: all 200ms ease-in-out;
 }
 
-.art-button {
+.interests-button {
   color: white;
   background-color: var(--tertiary-color);
   border: 2px solid #e9e3f2;
@@ -133,7 +137,7 @@ footer {
   font-family: var(--signature-font);
 }
 
-.art-button:hover {
+.interests-button:hover {
   background-color: white;
   color: var(--tertiary-color);
   border: 2px solid var(--tertiary-color);
@@ -340,14 +344,12 @@ footer {
 
 /*Responsive*/
 
-@media (max-width: 1024px) {
-  .about-button,
-  .portfolio-button {
-    font-size: 12px;
-    width: 150px;
-    padding: 10px 5px;
+@media (max-width: 1200px) {
+  .certificates {
+    max-width: 250px;
   }
-
+}
+@media (max-width: 1024px) {
   h1 {
     font-size: 64px;
     margin-bottom: 15px;
@@ -369,6 +371,14 @@ footer {
     font-size: 12px;
   }
 
+  /*Links & Images*/
+
+  .about-button,
+  .portfolio-button {
+    font-size: 12px;
+    width: 150px;
+    padding: 10px 5px;
+  }
   .social-media-links {
     max-width: 600px;
     padding: 20px;
@@ -379,16 +389,18 @@ footer {
   }
 
   .certificates {
-    max-width: 250px;
-  }
-
-  .qualifications-text p {
-    padding: 0;
+    max-width: 200px;
   }
 
   .portfolio-img {
     max-width: 250px;
     height: 320px;
+  }
+
+  /*Pages*/
+
+  .qualifications-text p {
+    padding: 0;
   }
 
   .content-text {
@@ -425,14 +437,37 @@ footer {
 }
 
 @media (max-width: 580px) {
+  /*Hero*/
+
+  .hero-image.about-page {
+    padding-bottom: 60px;
+  }
+
+  .hero-image {
+    padding: 50px 0;
+  }
+
+  .hero-text {
+    font-size: 36px;
+    margin-top: 70px;
+  }
+
+  .hero-text h1,
+  h1 {
+    margin-bottom: 0;
+  }
+
+  /*Links & Images*/
+
   .social-media-links {
     max-width: 300px;
     padding: 20px;
   }
 
-  .about-title {
-    margin-top: 70px;
-    margin-left: 0;
+  .project-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .profile-pic {
@@ -440,14 +475,10 @@ footer {
     max-width: 200px;
   }
 
-  .hero-image.about-page {
-    padding-bottom: 60px;
-  }
-
-  .project-link {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+  /*Pages*/
+  .about-title {
+    margin-top: 70px;
+    margin-left: 0;
   }
 
   .portfolio-img {
@@ -466,20 +497,6 @@ footer {
 
   .portfolio-title {
     margin: 30px 0 20px;
-  }
-
-  .hero-image {
-    padding: 50px 0;
-  }
-
-  .hero-text {
-    font-size: 36px;
-    margin-top: 70px;
-  }
-
-  .hero-text h1,
-  h1 {
-    margin-bottom: 0;
   }
 
   .content-title {
