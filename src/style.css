@@ -348,6 +348,19 @@ footer {
   .certificates {
     max-width: 250px;
   }
+
+  .portfolio-img {
+    max-width: 375px;
+    height: 480px;
+  }
+
+  .portfolio-container {
+    height: auto;
+  }
+
+  .portfolio-container.container-color {
+    height: auto;
+  }
 }
 @media (max-width: 1024px) {
   h1 {
